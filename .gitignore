@@ -1,0 +1,6 @@
+.env.*
+*.log
+venv/
+.idea/
+.vscode/
+tracks_data.json
