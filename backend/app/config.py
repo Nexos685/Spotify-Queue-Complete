@@ -1,0 +1,11 @@
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID")
+SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_REDIRECT_URI = os.getenv("SPOTIFY_REDIRECT_URI")
+GETBPM_KEY = os.getenv("GETBPM_KEY")
+SOUNDCHARTS_API_KEY = os.getenv("SOUNDCHARTS_API_KEY")
+SOUNDCHARTS_APP_ID = os.getenv("SOUNDCHARTS_APP_ID")
